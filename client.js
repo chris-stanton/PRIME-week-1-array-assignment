@@ -1,15 +1,14 @@
 
 var fishArray = ['Trout', 'Bass', 'Perch', 'Sunnies', 'Pike'];
 
-function fishing(fishArray, number) {
-
+function fishing(fishingArray, number) {
   for (var i = 0; i < fishArray.length; i++) {
-
-    return fishArray[i];
+    i = number;
+      return fishArray[i];
 
   }
 
 }
 
 
-console.log(fishing(fishArray, 3));
+console.log(fishing(fishArray, 2));
